@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+};
+
+.main{
+    border-radius: 5px;
+}
+
+.pointer{
+    cursor: pointer!important;
+}
+
+.todoBuild{
+    background-color: #6cdfca;
+    color: #374960;
+    padding: 20px;
+}
+
+.completedTodo{
+    background-color: #374960;
+    color: white;
+    padding: 20px;
+}
+
+.todoTask{
+    font-size: 17px;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.add-btn{
+    padding: 3px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hrCompleted{
+    background-color: #6cdfca;
+}
+
+.hrTodoItems{
+    background-color: #374960;
+}
+
+.taskContainer{
+    margin: 10px 0;
+}
+
+.radius{
+    border: 1px solid #222;
+    border-radius: 50%;
+    padding: 6px;
+    transition: all .2s ease-in;
+}
+
+.delBtn:hover{
+    background-color: #dc3545;
+    color: #fff!important;
+}
+
+.checkBtn:hover{
+    background-color: #28a745;
+    color: #fff !important;
+}
+
+.timesBtn:hover{
+    background-color: #dc3545;
+    color: #fff!important;
+}
+
+.trashBtn:hover{
+    background-color: #17a2b8;
+    color: #fff!important;
+}
+
+.container-div{
+   min-height: 500px;
+}
+
+.completedTask{
+    color: #6cdfca;
+}
